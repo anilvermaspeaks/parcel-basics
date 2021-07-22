@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/.bin/parcel serve src/index.html"
+    "start": "node_modules/.bin/parcel serve src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "author": "anil verma",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "parcel-plugin-compress": "^2.0.2",
+    "parcel-plugin-imagemin": "^4.0.2",
+    "parcel-plugin-purgecss": "^3.0.0"
   }
 }

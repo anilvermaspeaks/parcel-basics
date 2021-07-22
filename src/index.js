@@ -4,3 +4,6 @@ import './index.css'
 console.log("hello")
 console.log(data);
 console.log(image1)
+
+console.log(process.env.NODE_ENV)
+//production for prod
